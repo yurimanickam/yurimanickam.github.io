@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #050801;
+    background: #1a1a1a;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
@@ -29,7 +29,7 @@ a{
 }
 a:hover{
     background: #03e9f4;
-    color: #050801;
+    color: #a3771d;
     box-shadow: 0 0 5px #03e9f4,
                 0 0 25px #9349f4,
                 0 0 50px #03e9f4,
