@@ -7,7 +7,7 @@ let scene = new THREE.Scene();
 
 
 const loader = new THREE.TextureLoader();
-scene.background = loader.load( 'https://threejs.org/examples/textures/uv_grid_opengl.jpg' );
+scene.background = loader.load( 'img/e7dd3948839cdfab04f64909dc4484d2.jpg' );
 
 
 let camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 1, 1000);
