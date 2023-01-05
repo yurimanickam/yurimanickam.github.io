@@ -6,7 +6,7 @@ console.clear();
 let scene = new THREE.Scene();
 //Load background texture
 const loader = new THREE.TextureLoader();
-loader.load('https://i.pinimg.com/originals/e7/dd/39/e7dd3948839cdfab04f64909dc4484d2.jpg' , function(texture)
+loader.load('data:img/e7dd3948839cdfab04f64909dc4484d2.jpg' , function(texture)
             {
              scene.background = texture;  
             });
