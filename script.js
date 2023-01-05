@@ -7,7 +7,7 @@ let scene = new THREE.Scene();
 
 
 const loader = new THREE.TextureLoader();
-scene.background = loader.load( 'img/e7dd3948839cdfab04f64909dc4484d2.jpg' );
+scene.background = loader.load( 'img/thumb-1920-805180.jpg' );
 
 
 let camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 1, 1000);
