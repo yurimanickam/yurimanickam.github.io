@@ -6,9 +6,6 @@ console.clear();
 let scene = new THREE.Scene();
 
 
-const loader = new THREE.TextureLoader();
-scene.background = loader.load( 'img/thumb-1920-805180.jpg' );
-
 
 let camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 1, 1000);
 camera.position.set(0, 4, 21);
