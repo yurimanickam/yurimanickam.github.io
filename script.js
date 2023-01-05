@@ -4,12 +4,12 @@ import {OrbitControls} from "https://cdn.skypack.dev/three@0.136.0/examples/jsm/
 console.clear();
 
 let scene = new THREE.Scene();
-//Load background texture
+
+
 const loader = new THREE.TextureLoader();
-loader.load('data:img/e7dd3948839cdfab04f64909dc4484d2.jpg' , function(texture)
-            {
-             scene.background = texture;  
-            });
+scene.background = loader.load( 'https://threejs.org/examples/textures/uv_grid_opengl.jpg' );
+
+
 let camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 1, 1000);
 camera.position.set(0, 4, 21);
 let renderer = new THREE.WebGLRenderer();
