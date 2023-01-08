@@ -8,7 +8,7 @@ import {OrbitControls} from "https://cdn.skypack.dev/three@0.136.0/examples/jsm/
 
 
 
-var secret = [38,38,40,40,37,39,37,39,66,65]; //konami code
+var secret = [75,82,73,83,72,65]; //konami code
 var i = 0;
 
 $(document).keyup(function(e) {
@@ -17,7 +17,7 @@ $(document).keyup(function(e) {
         $('.help').children().eq(i).css('color','#669966');
         i++;
 
-        if(i==10){
+        if(i==6){
             $('.icon').html("<img src='img/IMG-0487.webp' width='1920' height='1080'>");
         }
     }else{
