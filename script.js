@@ -1,6 +1,38 @@
 import * as THREE from "https://cdn.skypack.dev/three@0.136.0";
 import {OrbitControls} from "https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/OrbitControls";
 
+
+
+
+
+
+
+
+var secret = [38,38,40,40,37,39,37,39,66,65]; //konami code
+var i = 0;
+
+$(document).keyup(function(e) {
+
+    if(secret[i]==e.which){
+        $('.help').children().eq(i).css('color','#669966');
+        i++;
+
+        if(i==10){
+            $('.icon').html("<img src='img/IMG-0487.webp' width='1920' height='1080'>");
+        }
+    }else{
+        i=0;
+        $('.help i').css('color','#DDD');
+        $('.help span').css('color','#DDD');
+    };
+});
+
+
+
+
+
+
+
 console.clear();
 
 let scene = new THREE.Scene();
